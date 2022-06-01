@@ -2,6 +2,12 @@ package practiseBen;
 
 public class Fourth {
     public static void main(String[] args) {
-        System.out.println("Hello!");
+        int x = 1;
+        int y =  2;
+        int z = 3;
+
+        int sum = x + y + z;
+
+        System.out.println((sum));
     }
 }
