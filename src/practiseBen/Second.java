@@ -13,7 +13,7 @@ public class Second {
         employeeList.add(new Employee("Mary", "Smith", 22));
         employeeList.add(new Employee("Mike", "Wilson", 3245));
         employeeList.add(new Employee("Saad", "", 7777));
-
+        employeeList.remove(2);
 
         for (Employee view:employeeList) {
             System.out.println(view.getFirstName());
